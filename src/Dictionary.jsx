@@ -31,6 +31,9 @@ function handleKeywordChange (event) {
         <form onSubmit={search}>
             <input type="search"  onChange={handleKeywordChange}autoFocus={true}/>
         </form>
+        <div className="hint">
+            Suggested words: sunset, wine, yoga, plant...
+        </div>
         </section>
         < Results results = {results}/>
         </div>;
