@@ -11,7 +11,7 @@ export default function Results(props) {
     <section>
         <h2>{props.results.word}</h2>
       
-        {props.results.phonetic} 
+        <div className="Phonetic">{props.results.phonetic} </div>
       </section>
 
         {props.results.meanings.map(function(meaning, index) 
