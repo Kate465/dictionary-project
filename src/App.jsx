@@ -14,7 +14,7 @@ export default  function App() {
           <img src={logo} className="App-logo" alt="logo" img="fluid"/>
         </header>
         <main>
-        <Dictionary />
+        <Dictionary defaultKeyword= "hello"/>
         </main>
         <footer className="App-footer">
           <small>Coded by Keamogetse and is < a href ="https://github.com/Kate465/dictionary-project" target="_blank"> open sourced on Github </a> {" "}
